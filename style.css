@@ -1,4 +1,6 @@
-/* ===== GENERAL STYLES ===== */
+/* ============================================ */
+/* GENERAL STYLES */
+/* ============================================ */
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +8,14 @@
 }
 
 :root {
-    /* COLORS - Change these to customize your site */
+    /* ============================================ */
+    /* COLORS - CHANGE THESE TO CUSTOMIZE YOUR SITE */
+    /* Use https://coolors.co to find color codes */
+    /* ============================================ */
     --primary-color: #2563eb;      /* Main blue color */
-    --primary-dark: #1e40af;       /* Darker blue for hover */
+    --primary-dark: #1e40af;       /* Darker blue for hover effects */
     --secondary-color: #f3f4f6;    /* Light gray background */
-    --text-dark: #1f2937;          /* Dark text */
+    --text-dark: #1f2937;          /* Dark text color */
     --text-light: #6b7280;         /* Light gray text */
     --white: #ffffff;
     --border-color: #e5e7eb;
@@ -51,7 +56,9 @@ a {
     color: inherit;
 }
 
-/* ===== NAVIGATION BAR ===== */
+/* ============================================ */
+/* NAVIGATION BAR */
+/* ============================================ */
 .navbar {
     background-color: var(--white);
     box-shadow: 0 2px 10px rgba(0,0,0,0.05);
@@ -93,7 +100,9 @@ a {
     color: var(--primary-color);
 }
 
-/* ===== SECTIONS ===== */
+/* ============================================ */
+/* SECTIONS */
+/* ============================================ */
 section {
     padding: 100px 20px;
 }
@@ -112,7 +121,9 @@ section {
     margin-bottom: 60px;
 }
 
-/* ===== BUTTONS ===== */
+/* ============================================ */
+/* BUTTONS */
+/* ============================================ */
 .btn {
     display: inline-block;
     padding: 12px 30px;
@@ -144,7 +155,9 @@ section {
     color: var(--white);
 }
 
-/* ===== HOME SECTION ===== */
+/* ============================================ */
+/* HOME SECTION (index.html) */
+/* ============================================ */
 .home-section {
     min-height: 100vh;
     display: flex;
@@ -194,9 +207,12 @@ section {
     height: 500px;
 }
 
-/* ===== ABOUT SECTION ===== */
+/* ============================================ */
+/* ABOUT SECTION (about_me.html) */
+/* ============================================ */
 .about-section {
     background-color: var(--secondary-color);
+    padding-top: 120px;
 }
 
 .about-block {
@@ -243,9 +259,12 @@ section {
     margin-top: 40px;
 }
 
-/* ===== PORTFOLIO SECTION ===== */
+/* ============================================ */
+/* PORTFOLIO SECTION (portfolio.html) */
+/* ============================================ */
 .portfolio-section {
     background-color: var(--white);
+    padding-top: 120px;
 }
 
 /* Portfolio Categories */
@@ -363,9 +382,13 @@ section {
     font-weight: 500;
 }
 
-/* ===== CONTACT SECTION ===== */
+/* ============================================ */
+/* CONTACT SECTION (contact.html) */
+/* ============================================ */
 .contact-section {
     background-color: var(--secondary-color);
+    padding-top: 120px;
+    min-height: 80vh;
 }
 
 .contact-content {
@@ -413,7 +436,9 @@ section {
     text-decoration: underline;
 }
 
-/* ===== FOOTER ===== */
+/* ============================================ */
+/* FOOTER */
+/* ============================================ */
 .footer {
     background-color: var(--text-dark);
     color: var(--white);
@@ -421,10 +446,13 @@ section {
     padding: 30px 20px;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+/* ============================================ */
+/* RESPONSIVE DESIGN - Mobile phones */
+/* ============================================ */
 @media (max-width: 768px) {
     .nav-menu {
         gap: 20px;
+        font-size: 0.9rem;
     }
     
     .home-content {
