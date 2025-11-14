@@ -4,7 +4,7 @@
 
 ---
 
-## 📁 What's Included
+## What's Included
 
 **5 HTML Pages:**
 - `index.html` - Home page (your introduction)
@@ -17,7 +17,7 @@
 
 ---
 
-## 🚀 Quick Setup
+## Quick Setup
 
 ### Step 1: Upload to GitHub
 1. Create GitHub account at [github.com](https://github.com)
@@ -42,7 +42,7 @@ Just search for "CHANGE" in each HTML file!
 
 ---
 
-## 📸 Images You Need (16 Total)
+## Images You Need (16 Total)
 
 ### Main Images (4 files):
 1. **profile_photo.jpg** - 800x800px (square) - Your headshot
@@ -75,7 +75,7 @@ Just search for "CHANGE" in each HTML file!
 
 ---
 
-## ✏️ What to Edit in Each File
+## What to Edit in Each File
 
 ### index.html (Home Page)
 **Search for "CHANGE" and replace:**
@@ -122,7 +122,7 @@ Use [coolors.co](https://coolors.co) to find color codes!
 
 ---
 
-## 📂 Final Folder Structure
+## Final Folder Structure
 
 ```
 your-username.github.io/
@@ -157,7 +157,7 @@ your-username.github.io/
 
 ---
 
-## 🎯 How to Find What to Change
+## How to Find What to Change
 
 **Easy method:**
 1. Open any HTML file
@@ -170,7 +170,7 @@ your-username.github.io/
 
 ---
 
-## ✅ Testing Checklist
+## Testing Checklist
 
 After editing:
 - [ ] Visit `https://your-username.github.io`
@@ -184,7 +184,7 @@ After editing:
 
 ---
 
-## 🎨 Features
+## Features
 
 ✅ **Multi-page navigation** - separate pages that link together
 ✅ **Responsive design** - works on all devices
@@ -195,7 +195,7 @@ After editing:
 
 ---
 
-## 💡 Tips
+## Tips
 
 **DO:**
 ✅ Use exact file names (case-sensitive!)
@@ -212,7 +212,7 @@ After editing:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Images not showing?**
 - File names must match EXACTLY
@@ -229,7 +229,7 @@ After editing:
 
 ---
 
-## 📖 How Comments Work
+## How Comments Work
 
 Every place you need to make changes has a comment like this:
 
@@ -252,7 +252,7 @@ Every place you need to make changes has a comment like this:
 
 ---
 
-## 🌐 Your Website
+## Your Website
 
 After setup, your website will be live at:
 `https://your-username.github.io`
@@ -261,7 +261,7 @@ Share it everywhere!
 
 ---
 
-## 📚 Need Help?
+## Need Help?
 
 - GitHub Pages: [pages.github.com](https://pages.github.com)
 - HTML Basics: [w3schools.com/html](https://www.w3schools.com/html/)
