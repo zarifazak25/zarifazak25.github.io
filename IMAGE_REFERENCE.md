@@ -4,7 +4,7 @@
 
 ---
 
-## 📸 Main Page Images (8 images)
+## Main Page Images (8 images)
 
 | # | File Name | Size | Used On | Description |
 |---|-----------|------|---------|-------------|
@@ -19,7 +19,7 @@
 
 ---
 
-## 📂 Course Development Projects (3 images)
+## Course Development Projects (3 images)
 
 | # | File Name | Size | Description |
 |---|-----------|------|-------------|
@@ -39,7 +39,7 @@
 
 ---
 
-## 🎨 UX Research Projects (3 images)
+## UX Research Projects (3 images)
 
 | # | File Name | Size | Description |
 |---|-----------|------|-------------|
@@ -49,7 +49,7 @@
 
 ---
 
-## 📊 Data Visualization Projects (3 images)
+## Data Visualization Projects (3 images)
 
 | # | File Name | Size | Description |
 |---|-----------|------|-------------|
@@ -59,7 +59,7 @@
 
 ---
 
-## 📋 Checklist
+## Checklist
 
 Upload each image to the `images/` folder:
 
@@ -95,16 +95,16 @@ Upload each image to the `images/` folder:
 
 ---
 
-## ⚠️ Important Rules
+## Important Rules
 
-✅ **File names must be EXACT** (case-sensitive)
-✅ **All must be .jpg or .png format**
-✅ **Keep files under 2MB each**
-✅ **All go in the `images/` folder**
+ **File names must be EXACT** (case-sensitive)
+ **All must be .jpg or .png format**
+ **Keep files under 2MB each**
+ **All go in the `images/` folder**
 
 ---
 
-## 💾 File Location
+## File Location
 
 ```
 your-username.github.io/
@@ -133,7 +133,7 @@ your-username.github.io/
 
 ---
 
-## 📐 Image Size Guide
+## Image Size Guide
 
 **Square (800x800):**
 - Used for: Profile photo
