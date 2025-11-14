@@ -30,7 +30,7 @@
 2. Create `files` folder for your CV
 
 ### Step 3: Upload Images
-**You need 20 images total** - see list below
+**You need 16 images total** - see list below
 
 ### Step 4: Edit Content
 **All changes are clearly marked with comments like:**
@@ -42,39 +42,34 @@ Just search for "CHANGE" in each HTML file!
 
 ---
 
-## 📸 Images You Need (20 Total)
+## 📸 Images You Need (16 Total)
 
-### Main Images (8 files):
+### Main Images (4 files):
 1. **profile_photo.jpg** - 800x800px (square) - Your headshot
 2. **about_professional.jpg** - 1200x800px (landscape) - Work photo
 3. **about_goals.jpg** - 1200x800px (landscape) - Career goals
 4. **about_interests.jpg** - 1200x800px (landscape) - Hobbies
 
-5. **portfolio_course_development.jpg** - 1200x800px - Course work
-6. **portfolio_product_development.jpg** - 1200x800px - Products
-7. **portfolio_ux_research.jpg** - 1200x800px - UX research
-8. **portfolio_data_visualization.jpg** - 1200x800px - Data viz
-
 ### Portfolio Project Images (12 files):
 **Course Development (3):**
-9. **course_dev_project_1.jpg** - 1200x800px
-10. **course_dev_project_2.jpg** - 1200x800px
-11. **course_dev_project_3.jpg** - 1200x800px
+5. **course_dev_project_1.jpg** - 1200x800px
+6. **course_dev_project_2.jpg** - 1200x800px
+7. **course_dev_project_3.jpg** - 1200x800px
 
 **Product Development (3):**
-12. **product_dev_project_1.jpg** - 1200x800px
-13. **product_dev_project_2.jpg** - 1200x800px
-14. **product_dev_project_3.jpg** - 1200x800px
+8. **product_dev_project_1.jpg** - 1200x800px
+9. **product_dev_project_2.jpg** - 1200x800px
+10. **product_dev_project_3.jpg** - 1200x800px
 
 **UX Research (3):**
-15. **ux_research_project_1.jpg** - 1200x800px
-16. **ux_research_project_2.jpg** - 1200x800px
-17. **ux_research_project_3.jpg** - 1200x800px
+11. **ux_research_project_1.jpg** - 1200x800px
+12. **ux_research_project_2.jpg** - 1200x800px
+13. **ux_research_project_3.jpg** - 1200x800px
 
 **Data Visualization (3):**
-18. **data_viz_project_1.jpg** - 1200x800px
-19. **data_viz_project_2.jpg** - 1200x800px
-20. **data_viz_project_3.jpg** - 1200x800px
+14. **data_viz_project_1.jpg** - 1200x800px
+15. **data_viz_project_2.jpg** - 1200x800px
+16. **data_viz_project_3.jpg** - 1200x800px
 
 **All images must be .jpg or .png format!**
 
@@ -143,10 +138,6 @@ your-username.github.io/
 │   ├── about_professional.jpg
 │   ├── about_goals.jpg
 │   ├── about_interests.jpg
-│   ├── portfolio_course_development.jpg
-│   ├── portfolio_product_development.jpg
-│   ├── portfolio_ux_research.jpg
-│   ├── portfolio_data_visualization.jpg
 │   ├── course_dev_project_1.jpg
 │   ├── course_dev_project_2.jpg
 │   ├── course_dev_project_3.jpg
