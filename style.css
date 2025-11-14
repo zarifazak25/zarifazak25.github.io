@@ -12,8 +12,8 @@
     /* COLORS - CHANGE THESE TO CUSTOMIZE YOUR SITE */
     /* Use https://coolors.co to find color codes */
     /* ============================================ */
-    --primary-color: 3e5c76;      /* Main blue color */
-    --primary-dark: 1d2d44;       /* Darker blue for hover effects */
+    --primary-color: #3e5c76;      /* Main blue color */
+    --primary-dark: #1d2d44;       /* Darker blue for hover effects */
     --secondary-color: #f3f4f6;    /* Light gray background */
     --text-dark: #1f2937;          /* Dark text color */
     --text-light: #6b7280;         /* Light gray text */
