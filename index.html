@@ -1,63 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Your Name - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CHANGE: Update with your name -->
+    <title>Your Name - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="topbar">
-    <div class="logo">Your Name</div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+    <!-- ============================================ -->
+    <!-- NAVIGATION BAR - Same on all pages -->
+    <!-- ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- CHANGE: Replace "Your Name" with your actual name -->
+            <a href="index.html" class="nav-logo">Your Name</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about_me.html" class="nav-link">About Me</a></li>
+                <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
     </nav>
-  </header>
 
-  <main>
-    <section class="hero">
-      <h1>Hello, I’m Your Name</h1>
-      <p>
-        One sentence about who you are and what you are interested in.
-      </p>
-    </section>
-
-    <section id="about" class="block">
-      <h2>About Me</h2>
-      <p>
-        Write a short paragraph about your background, what you are studying,
-        and what kind of problems you like to work on.
-      </p>
-    </section>
-
-    <section id="projects" class="block">
-      <h2>Projects</h2>
-      <div class="project-grid">
-        <div class="project-card">
-          <h3>Project 1</h3>
-          <p>One or two sentences describing what you did.</p>
+    <!-- ============================================ -->
+    <!-- HOME/HERO SECTION -->
+    <!-- ============================================ -->
+    <section class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <!-- Left Side: Your Text -->
+                <div class="home-text">
+                    <!-- CHANGE: Replace "Your Name" with your actual name -->
+                    <h1 class="home-title">Hello, I'm <span class="highlight">Your Name</span></h1>
+                    
+                    <!-- CHANGE: Add your professional title and specialization -->
+                    <p class="home-subtitle">Your Professional Title | Your Specialization</p>
+                    
+                    <!-- CHANGE: Write 2-3 sentences about yourself -->
+                    <p class="home-description">
+                        A brief introduction about yourself. What you do, your passion, and what drives you. 
+                        Keep this concise and engaging - 2-3 sentences maximum.
+                    </p>
+                    
+                    <!-- Buttons - These work automatically -->
+                    <div class="home-buttons">
+                        <a href="portfolio.html" class="btn btn-primary">View My Work</a>
+                        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                
+                <!-- Right Side: Your Photo -->
+                <div class="home-image">
+                    <!-- ========================================== -->
+                    <!-- IMAGE REQUIRED -->
+                    <!-- File: images/profile_photo.jpg -->
+                    <!-- Size: 800x800 pixels (square) -->
+                    <!-- Type: .jpg or .png -->
+                    <!-- Description: Your professional headshot -->
+                    <!-- ========================================== -->
+                    <img src="images/profile_photo.jpg" alt="Your Name">
+                </div>
+            </div>
         </div>
-        <div class="project-card">
-          <h3>Project 2</h3>
-          <p>One or two sentences describing what you did.</p>
-        </div>
-        <div class="project-card">
-          <h3>Project 3</h3>
-          <p>One or two sentences describing what you did.</p>
-        </div>
-      </div>
     </section>
 
-    <section id="contact" class="block">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com">Your LinkedIn Profile</a></p>
-    </section>
-  </main>
+    <!-- ============================================ -->
+    <!-- FOOTER - Same on all pages -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <!-- CHANGE: Replace "Your Name" and year -->
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
 
-  <footer class="footer">
-    <p>© 2025 Your Name</p>
-  </footer>
 </body>
 </html>

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CHANGE: Update with your name -->
+    <title>Portfolio - Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ============================================ -->
+    <!-- NAVIGATION BAR (SAME ON ALL PAGES)          -->
+    <!-- ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- CHANGE: Replace "Your Name" with your actual name -->
+            <a href="index.html" class="nav-logo">Your Name</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about_me.html" class="nav-link">About Me</a></li>
+                <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================ -->
+    <!-- PORTFOLIO PAGE                               -->
+    <!-- ============================================ -->
+    <section class="portfolio-section">
+        <div class="container">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">
+                Explore my work. You can keep 1 category or many.  
+                You can also remove any category or project you don’t need.
+            </p>
+
+            <!-- ================================================================= -->
+            <!-- BEGINNER NOTE:                                                   -->
+            <!-- Each big block with class="portfolio-category" is ONE CATEGORY.  -->
+            <!-- If you don't want a category (e.g., Product Development),        -->
+            <!-- delete that whole block from <!-- CATEGORY START         -->
+            <!-- <!-- CATEGORY END                         -->
+            <!-- ================================================================= -->
+
+            <!-- ============================================================ -->
+            <!-- CATEGORY 1: COURSE DEVELOPMENT                               -->
+            <!-- CATEGORY START: COURSE DEVELOPMENT                           -->
+            <!-- ============================================================ -->
+            <div class="portfolio-category">
+                
+                <!-- CATEGORY HEADER BOX - MAIN CATEGORY TITLE -->
+                <div class="category-header-box">
+                    <div class="category-icon"></div>
+                    <div class="category-title-section">
+                        <h3>Course Development</h3>
+                        <!-- CHANGE: Brief description of this category (2-3 sentences) -->
+                        <p>
+                            Educational courses, curricula, and teaching materials I've created 
+                            to support meaningful learning experiences in different contexts.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- PROJECTS IN THIS CATEGORY -->
+                <div class="portfolio-projects">
+                    <h4 class="projects-heading">Projects</h4>
+
+                    <!-- ================================================================= -->
+                    <!-- NOTE:                                                   -->
+                    <!-- Each "project-card" is ONE project.                              -->
+                    <!-- If you only have ONE course project, keep only ONE project-card. -->
+                    <!-- You can delete or duplicate project-card blocks as needed.       -->
+                    <!-- ================================================================= -->
+
+                    <!-- PROJECT 1 (SAFE TO KEEP EVEN IF ONLY ONE PROJECT) -->
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <!-- ========================================== -->
+                                <!-- IMAGE (OPTIONAL BUT RECOMMENDED)          -->
+                                <!-- File: images/course_dev_project_1.jpg     -->
+                                <!-- If you don't have an image yet, you can   -->
+                                <!-- temporarily use any placeholder image.    -->
+                                <!-- ========================================== -->
+                                <img src="images/course_dev_project_1.jpg" alt="Course Development Project 1">
+                            </div>
+                            <div class="project-content">
+                                <!-- CHANGE: Project title -->
+                                <h5>Course Project Title 1</h5>
+                                <!-- CHANGE: Date and context -->
+                                <p class="project-meta">Date: Month Year | Institution/Context</p>
+                                <!-- CHANGE: Project description (3-5 sentences) -->
+                                <p class="project-description">
+                                    Describe this course development project. What was the goal? 
+                                    Who was it for? What did students learn? What was your role in designing 
+                                    or teaching it? Mention any outcomes or feedback you received.
+                                </p>
+                                <!-- CHANGE: Add relevant tags/keywords -->
+                                <div class="project-tags">
+                                    <span class="tag">Curriculum</span>
+                                    <span class="tag">Teaching</span>
+                                    <span class="tag">Course Design</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 2 (OPTIONAL - DELETE IF NOT NEEDED) -->
+                    <div class="project-card">
+                        <div class="project-item reverse">
+                            <div class="project-image">
+                                <img src="images/course_dev_project_2.jpg" alt="Course Development Project 2">
+                            </div>
+                            <div class="project-content">
+                                <h5>Course Project Title 2</h5>
+                                <p class="project-meta">Date: Month Year | Institution/Context</p>
+                                <p class="project-description">
+                                    Another course project. You can describe how you improved an existing course, 
+                                    added new activities, or redesigned assessments to better support learners.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Instructional Design</span>
+                                    <span class="tag">Assessment</span>
+                                    <span class="tag">Student Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT 3 (OPTIONAL - DELETE IF NOT NEEDED) -->
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="images/course_dev_project_3.jpg" alt="Course Development Project 3">
+                            </div>
+                            <div class="project-content">
+                                <h5>Course Project Title 3</h5>
+                                <p class="project-meta">Date: Month Year | Institution/Context</p>
+                                <p class="project-description">
+                                    You can add more projects if you like. If you only have one project, it is 
+                                    completely fine to delete this project-card block.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Online Learning</span>
+                                    <span class="tag">Blended</span>
+                                    <span class="tag">Higher Education</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- EXAMPLE: HOW TO USE A VIDEO INSTEAD OF AN IMAGE -->
+                    <!--
+                    BEGINNER (OPTIONAL):
+                    If you want to show a YouTube video instead of an image,
+                    replace the <div class="project-image"> ... </div> block with this:
+
+                    <div class="project-image">
+                        <iframe width="100%" height="300"
+                                src="https://www.youtube.com/embed/VIDEO_ID"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                    -->
+                </div>
+            </div>
+            <!-- CATEGORY END: COURSE DEVELOPMENT -->
+
+            <!-- ============================================================ -->
+            <!-- CATEGORY 2: PRODUCT DEVELOPMENT                              -->
+            <!-- CATEGORY START: PRODUCT DEVELOPMENT                          -->
+            <!-- ============================================================ -->
+            <div class="portfolio-category">
+                <div class="category-header-box">
+                    <div class="category-icon"></div>
+                    <div class="category-title-section">
+                        <h3>Product Development</h3>
+                        <!-- CHANGE: Brief description -->
+                        <p>
+                            Products, tools, and digital solutions I've helped design or build 
+                            to support learners, educators, or other stakeholders.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-projects">
+                    <h4 class="projects-heading">Projects</h4>
+
+                    <!-- BEGINNER: Keep only ONE project-card if you have a single product. -->
+
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                        <iframe width="100%" height="300"
+                                src="https://www.youtube.com/embed/VIDEO_ID"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                            <div class="project-content">
+                                <h5>Product Title 1</h5>
+                                <p class="project-meta">Date: Month Year | Company/Context</p>
+                                <p class="project-description">
+                                    Describe this product. What problem does it solve? Who uses it? 
+                                    What was your contribution (e.g., research, design, implementation)?
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Prototype</span>
+                                    <span class="tag">EdTech</span>
+                                    <span class="tag">MVP</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OPTIONAL PROJECTS: DELETE THESE IF YOU DON'T NEED THEM -->
+                    <div class="project-card">
+                        <div class="project-item reverse">
+                            <div class="project-image">
+                                <img src="images/product_dev_project_2.jpg" alt="Product Development Project 2">
+                            </div>
+                            <div class="project-content">
+                                <h5>Product Title 2</h5>
+                                <p class="project-meta">Date: Month Year | Company/Context</p>
+                                <p class="project-description">
+                                    Another product. You can share how you collaborated with others, 
+                                    or how you tested this product with real users.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">User Testing</span>
+                                    <span class="tag">Iteration</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="images/product_dev_project_3.jpg" alt="Product Development Project 3">
+                            </div>
+                            <div class="project-content">
+                                <h5>Product Title 3</h5>
+                                <p class="project-meta">Date: Month Year | Company/Context</p>
+                                <p class="project-description">
+                                    Optional extra product. It's okay to remove this if you don’t have many examples yet.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Design</span>
+                                    <span class="tag">Prototyping</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- CATEGORY END: PRODUCT DEVELOPMENT -->
+
+            <!-- ============================================================ -->
+            <!-- CATEGORY 3: UX DESIGN RESEARCH                               -->
+            <!-- CATEGORY START: UX DESIGN RESEARCH                           -->
+            <!-- ============================================================ -->
+            <div class="portfolio-category">
+                <div class="category-header-box">
+                    <div class="category-icon"></div>
+                    <div class="category-title-section">
+                        <h3>UX Design Research</h3>
+                        <p>
+                            User experience research projects that focus on understanding real users, 
+                            their needs, and improving designs based on evidence.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="portfolio-projects">
+                    <h4 class="projects-heading">Projects</h4>
+
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="images/ux_research_project_1.jpg" alt="UX Research Project 1">
+                            </div>
+                            <div class="project-content">
+                                <h5>Research Project Title 1</h5>
+                                <p class="project-meta">Date: Month Year | Client/Context</p>
+                                <p class="project-description">
+                                    Describe the research question, methods (e.g., interviews, surveys, usability tests),
+                                    and what you learned. How did this inform design decisions?
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">User Interviews</span>
+                                    <span class="tag">Analysis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OPTIONAL PROJECTS -->
+                    <div class="project-card">
+                        <div class="project-item reverse">
+                            <div class="project-image">
+                                <img src="images/ux_research_project_2.jpg" alt="UX Research Project 2">
+                            </div>
+                            <div class="project-content">
+                                <h5>Research Project Title 2</h5>
+                                <p class="project-meta">Date: Month Year | Client/Context</p>
+                                <p class="project-description">
+                                    Another UX research example. You can share artifacts like journey maps, 
+                                    personas, or key findings.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Journey Mapping</span>
+                                    <span class="tag">Personas</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="images/ux_research_project_3.jpg" alt="UX Research Project 3">
+                            </div>
+                            <div class="project-content">
+                                <h5>Research Project Title 3</h5>
+                                <p class="project-meta">Date: Month Year | Client/Context</p>
+                                <p class="project-description">
+                                    Optional third example. Delete this if you want your portfolio to be simpler.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Usability Testing</span>
+                                    <span class="tag">Reporting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- CATEGORY END: UX DESIGN RESEARCH -->
+
+            <!-- ============================================================ -->
+            <!-- CATEGORY 4: DATA VISUALIZATION                               -->
+            <!-- CATEGORY START: DATA VISUALIZATION                           -->
+            <!-- ============================================================ -->
+            <div class="portfolio-category">
+                <div class="category-header-box">
+                    <div class="category-icon"></div>
+                    <div class="category-title-section">
+                        <h3>Data Visualization</h3>
+                        <p>
+                            Data stories, dashboards, and visualizations that turn complex data 
+                            into clear, actionable insights.
+                        </p>
+                    </div>
+                </div>
+
+                   
+
+                <div class="portfolio-projects">
+                    <h4 class="projects-heading">Projects</h4>
+
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="images/data_viz_project_1.jpg" alt="Data Visualization Project 1">
+                            </div>
+                            <div class="project-content">
+                                <h5>Visualization Project Title 1</h5>
+                                <p class="project-meta">Date: Month Year | Tool/Context</p>
+                                <p class="project-description">
+                                    Describe the data, the question you answered, and how to read the visualization. 
+                                    Mention tools used (e.g., R, Python, Tableau, Excel).
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Dashboard</span>
+                                    <span class="tag">Storytelling</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OPTIONAL PROJECTS -->
+                    <div class="project-card">
+                        <div class="project-item reverse">
+                            <div class="project-image">
+                                <img src="images/data_viz_project_2.jpg" alt="Data Visualization Project 2">
+                            </div>
+                            <div class="project-content">
+                                <h5>Visualization Project Title 2</h5>
+                                <p class="project-meta">Date: Month Year | Tool/Context</p>
+                                <p class="project-description">
+                                    Another visualization project. You can focus on design choices or 
+                                    audience you designed for.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Charts</span>
+                                    <span class="tag">Analytics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="images/data_viz_project_3.jpg" alt="Data Visualization Project 3">
+                            </div>
+                            <div class="project-content">
+                                <h5>Visualization Project Title 3</h5>
+                                <p class="project-meta">Date: Month Year | Tool/Context</p>
+                                <p class="project-description">
+                                    Optional project. You can remove this block if you only have one or two examples.
+                                </p>
+                                <div class="project-tags">
+                                    <span class="tag">Geospatial</span>
+                                    <span class="tag">Time Series</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- CATEGORY END: DATA VISUALIZATION -->
+
+            <!-- ================================================================= -->
+            <!-- BEGINNER: IF YOU ONLY WANT ONE CATEGORY                          -->
+            <!-- You can delete entire portfolio-category blocks above except one. -->
+            <!-- Your site will still work.                                       -->
+            <!-- ================================================================= -->
+
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER                                       -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <!-- CHANGE: Replace "Your Name" and year -->
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
